@@ -1,31 +1,31 @@
 # Commands used in this session
 
-### docker build command - builds the Docker image
+### Building a Docker image
 
-`docker build -t <some-name> <path-to-the-build-context>`
+> docker build -t `<some-name>` `<path-to-the-build-context>`
 
-Example: 
+**Example**: 
 
-`docker build -t foo .` (here the build context is my current directory)
+> docker build -t foo . (here the build context is my current directory)
 
-`docker build -t foo a-dir` (here the build context is the 'a-dir' directory)
+> docker build -t foo a-dir (here the build context is the 'a-dir' directory)
 
-### docker run command - runs the built image
+### Running a container with the built image
 
-`docker run <some-name>`
+> docker run `<some-name>`
 
-### going inside a running container
+### Going inside a running container
 
-`docker exec -it <container-id> bash`
+> docker exec -it `<container-id>` bash
 
-### port forwarding in docker
+### Port forwarding in docker
 
-`docker run -p <host-port>:<container-port> <some-name>`
+> docker run -p `<host-port>`:`<container-port>` `<some-name>`
 
-Example: 
+**Example**: 
 
-`docker run -p 9000:9000 foo`
+> docker run -p 9000:9000 foo
 
-### seeing which containers are currently running
+### Seeing which containers are currently running
 
-`docker container ps`
+> docker container ps
