@@ -1,3 +1,4 @@
+# Commands used in this session
 
 ### docker build command - builds the Docker image
 
@@ -6,7 +7,9 @@
 Example: 
 
 `docker build -t foo .` (here the build context is my current directory)
+
 `docker build -t foo a-dir` (here the build context is the 'a-dir' directory)
+
 ### docker run command - runs the built image
 
 `docker run <some-name>`
@@ -18,7 +21,11 @@ Example:
 ### port forwarding in docker
 
 `docker run -p <host-port>:<container-port> <some-name>`
-Example: docker run -p 9000:9000 foo
+
+Example: 
+
+`docker run -p 9000:9000 foo`
 
 ### seeing which containers are currently running
+
 `docker container ps`
