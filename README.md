@@ -1,2 +1,2 @@
 # learn-containerisation
-A day by day basis learning activities for container tech
+A day to day basis learning activities for container tech
