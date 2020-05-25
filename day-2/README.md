@@ -15,4 +15,6 @@ the steps above.
 - Try copying a file into the docker using the COPY
 command in the dockerfile.
 
-Syntax: COPY <host path> <docker path>
+Syntax: 
+
+COPY `<host path>` `<docker path>`
