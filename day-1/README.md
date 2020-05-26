@@ -1,5 +1,5 @@
 # Agenda
-# ![Thumbnail](youtube/lecture-1/thumbnail.png) #
+# ![Thumbnail](/youtube/lecture-1/thumbnail.png) #
 - Discuss how we share our applications and deploy
 them.
 
