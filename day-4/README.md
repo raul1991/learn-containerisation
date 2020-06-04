@@ -9,6 +9,7 @@
 
 # Exercise
 
-- Learn use of ADD, COPY
-- Copy file(s) into docker and see them by getting inside docker.
 - Declare some env variables and print them.
+- Use env variables in the script file we made.
+- Try to transfer an archive file like a zip or a tar using ADD and COPY command
+and see the difference.
