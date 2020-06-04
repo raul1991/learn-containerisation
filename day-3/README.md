@@ -1,9 +1,10 @@
 # Agenda
 
-- Run a docker prepared in the last session.
+- Run a docker container prepared in the last session.
 - Get into your docker
 - Explore the contents and introspect how you were able
 to get into it.
+- Learn and explore the port forwarding.
 
 # Exercise
 
