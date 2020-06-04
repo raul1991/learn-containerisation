@@ -1,5 +1,6 @@
 # Agenda
 
+- What is the difference between a Dockerfile and docker container ?
 - What are basic parts of a docker file. Not all, just some parts are discussed.
   - base type (OS)
   - some modifications (libraries)
