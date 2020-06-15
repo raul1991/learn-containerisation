@@ -1,6 +1,6 @@
 # Commands learnt
 
-- Attaching a 'host only volume'
+### Attaching a 'host only volume'
 
 ```
 docker run -v /tmp/:/tmp/ <some-image>
@@ -18,7 +18,7 @@ docker run -v /tmp/:/tmp/ -p 9000:9000 cafebabe1991/coba-learning:v1
 docker run -v /tmp/:/tmp/:ro -p 9000:9000 cafebabe1991/coba-learning:v1
 ```
 
-- Attaching an 'anonymous volume'
+### Attaching an 'anonymous volume'
 
 ```
 docker run -v /tmp/ <some-image>
@@ -30,7 +30,7 @@ Example:
 docker run -p 9000:9000 -v /tmp/ cafebabe1991/coba-learning:v1
 ```
 
-- Attaching a 'named volume'
+### Attaching a 'named volume'
 
 1. Create a volume
 
