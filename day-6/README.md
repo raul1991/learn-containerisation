@@ -1,3 +1,7 @@
+# Video
+
+[![Watch the video](day-6/lecture-6-github.png)](https://youtu.be/UAnPtPJVe_U)
+
 # Agenda
 
 - Volumes in docker - a way to add persistence to docker containers and share data among containers.

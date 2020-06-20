@@ -1,3 +1,6 @@
+# Video
+
+[![Watch the video](day-2/lecture-2-github.png)](https://youtu.be/X4DQbey0Iys)
 # Agenda
 
 - What is the difference between a Dockerfile and docker container ?

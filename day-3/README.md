@@ -1,3 +1,7 @@
+# Video
+
+[![Watch the video](day-3/lecture-3-github.png)](https://youtu.be/Pf5GC8xxUbA)
+
 # Agenda
 
 - Run a docker container prepared in the last session.
