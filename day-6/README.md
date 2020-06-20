@@ -1,6 +1,6 @@
 # Video
 
-[![Watch the video](day-6/lecture-6-github.png)](https://youtu.be/UAnPtPJVe_U)
+[![Watch the video](/day-6/lecture-6-github.png)](https://youtu.be/UAnPtPJVe_U)
 
 # Agenda
 
