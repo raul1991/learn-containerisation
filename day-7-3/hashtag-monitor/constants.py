@@ -1,4 +1,5 @@
-consumer_key = 'M4S2CdZZx6KZqBevrlSmfYHXK'
-consumer_secret = 'T2zC4OGMlcv02mMRI1UBrDaInIdORulCzm2WKISw5txgsOpUul'
-access_token_key = '879610951108091904-APi5hBrFoS15DngwUIGxoqsqszkex39'
-access_token_secret = 'YaaJfaIkoqkg6TdmNZSS0AlC6B639FinonytT1UC5ORkB'
+# you can get the credentials by registering on apps.twitter.com
+consumer_key = '<your-secret>'
+consumer_secret = '<your-secret>'
+access_token_key = '<your-secret>'
+access_token_secret = '<your-secret>'
