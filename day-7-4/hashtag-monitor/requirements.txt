@@ -1,0 +1,4 @@
+flask
+python-twitter
+Flask-Sqlalchemy
+mysqlclient
