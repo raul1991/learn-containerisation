@@ -1,3 +1,6 @@
+# Video
+[![Watch the video](/day-8/github-thumbnail.png)](https://youtu.be/zWgY94wuLhA)
+
 # Agenda
 
 - Network in docker
