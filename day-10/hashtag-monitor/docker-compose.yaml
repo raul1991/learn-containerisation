@@ -1,0 +1,35 @@
+version: '3.7'
+services:
+  rest-api:
+    build: .
+    ports:
+    - "${DB_PORT}:${DB_PORT}"
+    restart: on-failure
+    networks:
+      hash-tag-net:
+    depends_on:
+      - mysql
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${MYSQL_DATABASE}
+      - DB_PORT=${DB_PORT}
+      - DB_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+  mysql:
+    container_name: mysql_db
+    image: mysql:8
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    volumes:
+    - mysql_storage:/var/lib/mysql
+    networks:
+      hash-tag-net:
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+
+volumes:
+  mysql_storage: {}
+networks:
+    hash-tag-net:
+        ipam:
+            config:
+                - subnet: 172.28.0.0/16
